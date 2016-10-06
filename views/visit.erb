@@ -10,19 +10,19 @@
 
   <div class="form-group">
     <label>Ваш телефон</label>
-    <input name="phone" type="text" class="form-control" placeholder="Ваш телефон">
+    <input name="phone" type="text" class="form-control bbb" placeholder="Ваш телефон">
   </div>
 
   <div class="form-group">
     <label>Когда вас ждать?</label>
-    <input name="datetime" type="text" class="form-control" placeholder="Введите дату и время">
+    <input id="aaa" name="datetime" type="text" class="form-control" placeholder="Введите дату и время">
   </div>
 
 
  <div class="form-group">
     <label>Ваш парикмаххер</label>
     
-<select name="barber" class="form-control"> # name добавляем сами
+<select name="barber" class="form-control bbb"> # name добавляем сами
   <option>Иван</option>
   <option>Катя</option>
   <option>Лида</option>
@@ -35,3 +35,7 @@
   <button type="submit" class="btn btn-primary">Записаться</button>
 
 </form>
+<script type="text/javascript">
+$('#aaa').css('background-color','red');
+$('.bbb').css('background-color','blue');
+</script>
